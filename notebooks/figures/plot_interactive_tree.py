@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 from sklearn.tree import DecisionTreeClassifier
 
-from sklearn.externals.six import StringIO  # doctest: +SKIP
+from six import StringIO  # doctest: +SKIP
 from sklearn.tree import export_graphviz
-from scipy.misc import imread
+from matplotlib.pyplot import imread
 from scipy import ndimage
 
 import re
